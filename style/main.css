@@ -403,6 +403,14 @@ body {
     font-weight: 600;
     font-size: 20px;
 }
+.smt-btn  {
+    border: 1px solid rgb(255, 255, 255,);
+    border-radius: 30px;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #FFf;
+    background: #000000;
+}
 /* Copyright Section */
 .copyright-box a {
     text-decoration: none;
