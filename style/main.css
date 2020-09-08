@@ -1,0 +1,459 @@
+/*------ Normal Use Colors-------- */
+.highlight {
+    color: #02c18D;
+}
+.gray {
+    color: #8a8c93;
+}
+/* ------Font-size------- */
+.large {
+    font-size: 44px;
+    font-weight: 900;
+}
+/* Icon Color */
+.icon {
+    color: #02c18D;
+}
+/* White Icon  */
+.icon-white {
+    color: #fff;
+}
+body {
+    background-color: #f1f3f8;
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+/* Upper-Nav */
+.upper-nav {
+    background-color: #353742;
+    color: #ffff;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.upper-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.top-header-text-wrap {
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+}
+.top-header-text {
+    padding: 10 0;
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.social-icon {
+    margin-top: 16px;
+}
+.apt-btn-wrap {
+    padding-right: 0;
+    padding-left: 0;
+    background-color: #02c18D;
+    text-align: center;
+    padding: auto 0 ;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+.apt-btn {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 600;
+    padding-left: 65px;
+}
+.apt-btn:hover {
+    text-decoration: none;
+}
+/* Main Navbar */
+.navbar {
+    background-color: rgb(255, 255, 255);    
+}
+.nav-link {
+    color: #8a8c93;
+    font-weight: 700;
+    font-size: 18px;
+}
+.gg ,a ,a:active ,a:focus, .gg:active, .gg:focus {
+    outline: none;
+}
+.nav-link:hover {
+    border-bottom: 4px solid #02c18D;
+    color: #02c18D;
+} 
+@media (min-width: 365px) and (max-width: 768px) {
+    .nav-link:hover {
+        border-bottom: 4px solid #02c18D;
+        color: #02c18D;
+    } 
+}
+.apt-content {
+    color: #8a8c93;
+}
+.apt-content a {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.apt-content a:hover {
+    text-decoration: none;
+    color: #02c18D;
+}
+/* Banner Section */
+.banner {
+    width: 100%;
+    background-image: url("../images/banner1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-top: 105px;
+}
+.banner-box {
+    padding-top: 50px;
+    position: relative;
+}
+
+.banner-box h2 {
+    color: #5a1716;
+}
+
+/* Discount-form Section */
+.form-box {
+    background-color: #13a7d7;  
+}
+.offer-highlight {
+    color: #ebb616;
+}
+.offer-btn {
+    background-color: #d23115;
+    font-weight:700;
+    color: #fff;
+}
+/* Intro Section  */
+.intor-section {
+    background: #f4f5f7;
+}
+.intro-content-wrap {
+    padding: 0 0 0 20px;
+}
+.intro-content-wrap ul {
+    padding: 29px 0 45px;
+}
+.bottom-box {
+    display: flex;
+}
+.author-info {
+    display: flex;
+    padding: 30px 0 0 0;
+}
+.right-box {
+    background-color: #ffff;
+}
+.left-heading-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+.intro-content-wrap h2 {
+    font-weight: 700;
+    font-size: 44px;
+}
+.intro-text {
+    color: #8a8c93;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Certified Section */
+.certified-container {
+    padding: 120px 0 90px 0;
+}
+.sec-tittle h2{
+    font-size: 44px;
+    font-weight: 900;
+}
+.sec-text p {
+    margin: 0 0 16px;
+}
+.btns-box {
+    background-color: #02c18D;
+    text-align: center;
+    padding: 10px 0;
+}
+.btns-box a {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-one {
+    text-decoration: none;
+}
+/* Services Section */
+.service-container {
+    padding: 120px 0 0px 0;
+}
+.service-intro {
+    padding-bottom: 49px;
+    color: #ffff;
+}
+.service-img-wrap img {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.service-content {
+    padding: 35px 40px 40px;
+    margin: 0 -15px;
+}
+.bottom-box a .fa {
+   color: black;
+}
+.service-content-box {
+    padding-bottom: 90px;
+}
+.service-content a {
+    color: #353742;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+.service-text {
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.service-content p {
+    line-height: 36px;
+    font-size: 20px;
+}
+/* Slogan Section */
+.slogan-main-container {
+    background: #02c18D;
+    color: #ffff;
+}
+.slogan-container {
+    padding: 104px 0;
+}
+.slogan-txt {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 56px;
+}
+.btn-box {
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    background: #000;
+}
+.btn-box a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* Why Choose Section */
+.why-choose-container {
+    padding: 50px 0;
+}
+.why-choose-wrap {
+    padding: 30px 0;
+}
+.why-choose-text p {
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.why-choose-image {
+    width: 100%;
+}
+.why-choose-content-box {
+    padding: 0 50px;
+}
+.happy-patient-tittle {
+    color: #fff;
+}
+/* About-Us Section */
+.about-us-wrap {
+    padding: 0 0 50px 0;
+}
+.about-us-container {
+    padding: 100px 0;
+}
+.about-us-text {
+    font-weight: 600;
+    line-height: 34px;
+}
+.happy-cst-text p {
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Qualification- Section */
+.contact-number a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+}
+.qualification-tittle h5 {
+    font-weight: 700;
+    font-size: 18px;
+}
+.qualification-text p {
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/* Ebook Download Section */
+.ebook-section {
+    
+}
+.ebbok-tittle h2 {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+.download-btn a {
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Blog-Section  */
+.blog-section a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.blog-text p {
+    font-weight:500;
+    font-size: 20px;
+}
+.date-box h5 {
+    background-color: #02c18D;
+    color: #ffff;
+    font-weight: 600;
+}
+.card-links a {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #353742;
+}
+.card-other-links a {
+    color: #353742;
+    font-weight: 600;
+}
+.card-text p {
+    font-weight: 600;
+    font-size: 20px;
+}
+.read-more-text a {
+    color: #8a8c93;
+    font-weight: 600;
+}
+/* FAQ's Section */
+.faq-container div {
+    border: none;
+}
+.faq-container h5 {
+    background-color: #5a1716;
+}
+.faq-container a {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* CTA Button-Bottom */
+.cta-btn-section {
+    background-color: #02c18D;
+    color: #fff;
+}
+.cta-btn-section button {
+    color: #fff;
+    background-color: #02c18D;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.text {
+    color: #5a1716 ;
+    font-size: 20px;
+}
+/* Social-Links Section */
+.social-links-section {
+    background-color: #2b2d36;
+}
+.social-links-box a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #8a8c93;
+    padding: 10px;
+}
+.social-links-box a:hover {
+    background-color: #02c18D;
+    border-radius: 50%;
+    padding: 10px;
+}
+.newsletter h5 {
+    font-weight: 600;
+    font-size: 20px;
+}
+/* Copyright Section */
+.copyright-box a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Book-Appointment-form */
+.book-apt-form-container {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(2, 193, 141,0.2);
+    display: none;
+    position: sticky;
+    /* position: absolute; */
+    z-index: 1000;
+    top: 110px;
+}
+.book-apt-form {
+    width: 500px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.book-apt-form h2 {
+    color: #d23115;
+}
+.book-apt-form button {
+    background-color: #d23115;
+    font-size: 20px;
+}
+@media (min-width: 350px) and (max-width: 768px){
+    .book-apt-form {
+        width: 95%;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .book-apt-form-container {
+        padding: 0;
+    }
+}
+/* Scroll-Top-Button */
+.scroll-top-button {
+    position: fixed;
+    text-align: center;
+    bottom: 30%;
+    padding: 10px;
+    right: 20px;
+    z-index: 56;
+    width: 50px;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 50px;
+}
