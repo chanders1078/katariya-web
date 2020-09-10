@@ -109,10 +109,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
-    margin-top: 105px;
+    margin-top: 60px;
 }
 .banner-box {
-    padding-top: 50px;
+    padding-top: 100px;
     position: relative;
 }
 
@@ -356,7 +356,16 @@ body {
     color: #8a8c93;
     font-weight: 600;
 }
+
+/* Gallery Section */
+.gallery-section {
+    background-color: #EBD6FF;
+}
+
 /* FAQ's Section */
+.faq-section {
+    background-color: #97EDE3;
+}
 .faq-container div {
     border: none;
 }
