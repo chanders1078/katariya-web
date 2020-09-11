@@ -10,11 +10,11 @@
     font-size: 44px;
     font-weight: 900;
 }
-/* Icon Color */
+/*-------Icon Color----------*/
 .icon {
     color: #02c18D;
 }
-/* White Icon  */
+/*-------White Icon----------*/
 .icon-white {
     color: #fff;
 }
@@ -23,52 +23,7 @@ body {
 }
 /* -------------------------------------------------------------------------------------------------- */
 
-/* Upper-Nav */
-.upper-nav {
-    background-color: #353742;
-    color: #ffff;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-}
-.upper-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-.top-header-text-wrap {
-    padding-left: 0;
-    padding-right: 0;
-    display: flex;
-    align-items: center;
-}
-.top-header-text {
-    padding: 10 0;
-    padding-left: 40px;
-    font-size: 14px;
-    font-weight: 400;
-}
-.social-icon {
-    margin-top: 16px;
-}
-.apt-btn-wrap {
-    padding-right: 0;
-    padding-left: 0;
-    background-color: #02c18D;
-    text-align: center;
-    padding: auto 0 ;
-    border-bottom-right-radius: 7px;
-    display: flex;
-    align-items: center;
-}
-.apt-btn {
-    text-decoration: none;
-    color: #ffff;
-    font-weight: 600;
-    padding-left: 65px;
-}
-.apt-btn:hover {
-    text-decoration: none;
-}
-/* Main Navbar */
+/* ************************ Main Navbar ***************
 .navbar {
     background-color: rgb(255, 255, 255);    
 }
@@ -101,15 +56,22 @@ body {
 .apt-content a:hover {
     text-decoration: none;
     color: #02c18D;
-}
-/* Banner Section */
-.banner {
+} */
+/*******************Banner Section****************/
+    
+.banner img {
     width: 100%;
-    background-image: url("../images/banner1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
-    margin-top: 60px;
+}
+@media (min-width:360px) and (max-width: 768px) {
+    .banner img {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+    }
 }
 .banner-box {
     padding-top: 100px;
@@ -119,11 +81,23 @@ body {
 .banner-box h2 {
     color: #5a1716;
 }
-
-/* Discount-form Section */
+.life-text {
+    font-size: 4rem;
+}
+/****************** Discount-form Section*****************/
+.get-details-from-section  {
+    width: calc(100% - 500px);
+}
+@media (min-width:360px) and (max-width: 768px) {
+    .get-details-from-section  {
+        width: calc(100% - 50px);
+    }
+}
 .form-box {
     background-color: #13a7d7;  
 }
+
+
 .offer-highlight {
     color: #ebb616;
 }
@@ -132,7 +106,43 @@ body {
     font-weight:700;
     color: #fff;
 }
-/* Intro Section  */
+
+/*******************Book-Appointment-form*******************/
+.book-apt-form-container {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(2, 193, 141,0.2);
+    display: none;
+    position: sticky;
+    /* position: absolute; */
+    z-index: 1000;
+    top: 110px;
+}
+.book-apt-form {
+    width: 500px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.book-apt-form h2 {
+    color: #d23115;
+}
+.book-apt-form button {
+    background-color: #d23115;
+    font-size: 20px;
+}
+@media (min-width: 350px) and (max-width: 768px){
+    .book-apt-form {
+        width: 95%;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .book-apt-form-container {
+        padding: 0;
+    }
+}
+/***************Intro Section********************/
 .intor-section {
     background: #f4f5f7;
 }
@@ -169,7 +179,8 @@ body {
     font-weight: 500;
 }
 
-/* Certified Section */
+
+/***********************Certified Section****************/
 .certified-container {
     padding: 120px 0 90px 0;
 }
@@ -192,7 +203,7 @@ body {
 .btn-one {
     text-decoration: none;
 }
-/* Services Section */
+/************************Services Section*********************/
 .service-container {
     padding: 120px 0 0px 0;
 }
@@ -229,7 +240,29 @@ body {
     line-height: 36px;
     font-size: 20px;
 }
-/* Slogan Section */
+
+
+/*******************About-Us Section***************/
+.about-us-section {
+    background-color: #7f271b;
+    color: #fff;
+}
+.about-us-wrap {
+    padding: 0 0 50px 0;
+}
+.about-us-container {
+    padding: 100px 0;
+}
+.about-us-text {
+    font-weight: 600;
+    line-height: 34px;
+}
+.happy-cst-text p {
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*********************Slogan Section********************/
 .slogan-main-container {
     background: #02c18D;
     color: #ffff;
@@ -252,61 +285,7 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
-/* Why Choose Section */
-.why-choose-container {
-    padding: 50px 0;
-}
-.why-choose-wrap {
-    padding: 30px 0;
-}
-.why-choose-text p {
-    line-height: 34px;
-    font-size: 18px;
-    font-weight: 600;
-}
-.why-choose-image {
-    width: 100%;
-}
-.why-choose-content-box {
-    padding: 0 50px;
-}
-.happy-patient-tittle {
-    color: #fff;
-}
-/* About-Us Section */
-.about-us-wrap {
-    padding: 0 0 50px 0;
-}
-.about-us-container {
-    padding: 100px 0;
-}
-.about-us-text {
-    font-weight: 600;
-    line-height: 34px;
-}
-.happy-cst-text p {
-    line-height: 34px;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-/* Qualification- Section */
-.contact-number a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 22px;
-    font-weight: 700;
-}
-.qualification-tittle h5 {
-    font-weight: 700;
-    font-size: 18px;
-}
-.qualification-text p {
-    line-height: 30px;
-    font-weight: 600;
-}
-
-/* Ebook Download Section */
+/********************Ebook Download Section*********/
 .ebook-section {
     
 }
@@ -323,46 +302,12 @@ body {
     font-size: 20px;
 }
 
-/* Blog-Section  */
-.blog-section a {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-}
-.blog-text p {
-    font-weight:500;
-    font-size: 20px;
-}
-.date-box h5 {
-    background-color: #02c18D;
-    color: #ffff;
-    font-weight: 600;
-}
-.card-links a {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 34px;
-    color: #353742;
-}
-.card-other-links a {
-    color: #353742;
-    font-weight: 600;
-}
-.card-text p {
-    font-weight: 600;
-    font-size: 20px;
-}
-.read-more-text a {
-    color: #8a8c93;
-    font-weight: 600;
-}
 
-/* Gallery Section */
+/******************Gallery Section*****************/
 .gallery-section {
     background-color: #EBD6FF;
 }
-
-/* FAQ's Section */
+/******************FAQ's Section*******************/
 .faq-section {
     background-color: #97EDE3;
 }
@@ -377,7 +322,7 @@ body {
     font-size: 20px;
 }
 
-/* CTA Button-Bottom */
+/******************CTA Button-Bottom ***************/
 .cta-btn-section {
     background-color: #02c18D;
     color: #fff;
@@ -392,7 +337,11 @@ body {
     color: #5a1716 ;
     font-size: 20px;
 }
-/* Social-Links Section */
+
+
+
+
+/******************** Social-Links Section******************/
 .social-links-section {
     background-color: #2b2d36;
 }
@@ -420,49 +369,15 @@ body {
     color: #FFf;
     background: #000000;
 }
-/* Copyright Section */
+/******************Copyright Section*****************/
 .copyright-box a {
     text-decoration: none;
     color: #fff;
 }
 
 
-/* Book-Appointment-form */
-.book-apt-form-container {
-    width: 100%;
-    height: 800px;
-    background-color: rgb(2, 193, 141,0.2);
-    display: none;
-    position: sticky;
-    /* position: absolute; */
-    z-index: 1000;
-    top: 110px;
-}
-.book-apt-form {
-    width: 500px;
-    height: 550px;
-    margin-left: auto;
-    margin-right: auto ;
-}
-.book-apt-form h2 {
-    color: #d23115;
-}
-.book-apt-form button {
-    background-color: #d23115;
-    font-size: 20px;
-}
-@media (min-width: 350px) and (max-width: 768px){
-    .book-apt-form {
-        width: 95%;
-        height: 600px;
-        margin-left: auto;
-        margin-right: auto ;
-    }
-    .book-apt-form-container {
-        padding: 0;
-    }
-}
-/* Scroll-Top-Button */
+
+/*------------ Scroll-Top-Button------------------- */
 .scroll-top-button {
     position: fixed;
     text-align: center;
